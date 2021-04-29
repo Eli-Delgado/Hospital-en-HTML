@@ -1,0 +1,157 @@
+/*ESTILOS EN GENERAL*/
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family:"open sans",arial,Helvetica;
+ }
+ 
+a{
+     color:#00FFBF;
+     text-decoration:none;
+ }
+ 
+ a:link{
+     text-decoration:none;
+ }
+ 
+ body{
+     width:1510px;
+     
+ 
+  }
+ 
+ 
+ 
+ /*ESTILOS DE LA CABECERA DE LA PAGINA*/
+  .encabezado{
+      background-image:url('../imagenes/banner.jpg');
+    
+      width:100%;
+      padding:0px;
+      margin:0px;
+  
+  }
+    .encabezado img{
+      margin-right:280px;
+      margin-left:40px;
+      margin-bottom:0px;
+      margin-top:0px;
+      width:150px;
+     
+   }
+   
+     .botonmenu{
+      text-decoration:none;
+      color:#fff;
+      font-size:16px;
+      background:#0772a1;
+      padding: 15px 20px;
+      display:inline-block;
+      border-radius:100px;
+      text-align:center;
+      margin-right:10px;
+      margin-bottom:30px;
+      
+      
+   }
+   
+   .botonmenu:hover{
+       background:#4CAF50;
+    }
+
+  
+/*ESTILOS DEL CUERPO DE LA PAGINA*/
+ body .contenedor{
+       background:#F2F2F2;
+       alignment-adjust:central;
+       width:80%;
+       margin-left:10%;
+       margin-bottom:50px;
+       text-align:center;
+ }
+
+  .presentacion video{
+      width:50%;
+      padding-top:10px;
+      padding-bottom:10px;
+      
+      
+   }
+   
+
+    
+    .presentacion .parrafo{
+      text-align:justify;
+      font-size:12px;
+      width:80%;
+      display:inline-block;
+     }
+     
+     
+  /*CONTENIDO*/
+  .contenido{
+     background:#58FA82;
+   }
+  
+  /*ESTILO DE LAS PROMECIONES*/
+  .promociones{
+     background:#0772a1;
+     color:#fff;
+   }
+   
+  .promociones img{
+       width:255px;
+       margin-left:10px;
+       margin-right:10px;
+  
+   }
+   
+  /*ESTILOS DE NUMEROS DE EMERGENCIAS*/
+  .emergencias{
+  
+      background:#CEF6CE;
+   }
+   
+   
+  /*ESTILOS DEL PIA DE PAGINA*/
+  .piedepagina{
+       text-align:left;
+       font-size:small;
+       color:#fff;
+       background:#2c3433;
+       text-align:center;
+ }
+
+ .tabla{
+       width:60%;
+
+       display:inline-block;
+  }
+  
+  .tabla th{
+       width:300px;
+       
+   }
+   
+   .tabla th {
+       color:#0772a1;
+       font-weight:bold;
+       font-size:14px;
+    }
+    
+    .tabla td a{
+       color:#4CAF50;
+       font-style:normal;
+       font-size:12px;
+    }
+   
+  .redes{
+       display:inline-block;
+       width:30%;
+       
+   }
+   
+   .redes img{
+       width:50px;
+       margin-left:10px;
+    }
